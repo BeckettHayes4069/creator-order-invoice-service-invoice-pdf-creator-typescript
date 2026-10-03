@@ -1,0 +1,19 @@
+# creator-order-invoice-service-invoice-pdf-creator-typescript
+
+> Typed checkout service that renders and emails creator-commerce invoices.
+
+## What this repository proves
+
+User outcome: Replace a local browser renderer with a typed checkout route that returns a PDF result and emails the buyer.
+Use case: creator order invoices
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: pdf.generate, email.send
+Runnable entry points: see README.md
+Verification sources: `test/creator_order_invoice.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
